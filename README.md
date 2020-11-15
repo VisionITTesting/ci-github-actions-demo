@@ -27,7 +27,7 @@ ___
 <img style="float: right;" src="./ci-cd-and-cdeploy.png"> 
 
 
-### Steps to Do 
+### Steps to Do to Implement GitHub Actions
 
 * Create a Java Maven Project
 * Add Junit dependency in POM file
