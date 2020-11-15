@@ -39,6 +39,7 @@ public class RunTest {
 
 * Click on Actions and click on “set up this workflow” link.
 
-<img style="float: center;" src="./click-git-hub-actions.jpg">
+<img style="float: right;" src="./click-git-hub-actions.png">
+
 * Rename the file as “maven-build.yml” and paste below code in the text editor.
 
