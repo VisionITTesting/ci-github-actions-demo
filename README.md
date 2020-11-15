@@ -43,4 +43,40 @@ public class RunTest {
 
 * Rename the file as “maven-build.yml” and paste below code in the text editor.
 
+<img style="float: right;" src="./replace-yml-file.png">
 
+```aidl
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Build with Maven
+      run: mvn clean install
+
+```
+
+* Once the code is commited, pipeline will be sensitive to the 'master' branch push and pr request on the 'master' branch and will automatically triggered.
+
+* To check the result go to Actions tab and click on the latest tab.
+
+* Click on the 'build' link and expand the logs.
+
+<img style="float: right;" src="./ci-build-logs.png">
