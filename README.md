@@ -10,6 +10,22 @@ Introduction
 ---
 This demo is about how to use Git Hub Actions to create CI and CD pipeline. 
 As a part of this demo we will implement git hub actions to build the maven project and trigger the test cases.
+Few details on CI-CD first which I will explain in the class and below this is the Steps to do.
+
+---
+## CI - CD Introduction
+
+### Stages in CI - CD Pipeline
+
+<img style="float: right;" src="./ci-cd-stages.png">
+
+___
+
+<img style="float: right;" src="./ci-cd-stages-pipelineview.png">
+
+---
+<img style="float: right;" src="./ci-cd-and-cdeploy.png"> 
+
 
 ### Steps to Do 
 
@@ -81,16 +97,3 @@ jobs:
 
 <img style="float: right;" src="./ci-build-logs.png">
 
----
-## CI - CD Introduction
-
-### Stages in CI - CD Pipeline
-
-<img style="float: right;" src="./ci-cd-stages.png">
-
-___
-
-<img style="float: right;" src="./ci-cd-stages-pipelineview.png">
-
----
-<img style="float: right;" src="./ci-cd-and-cdeploy.png"> 
