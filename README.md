@@ -36,3 +36,8 @@ public class RunTest {
 * Run the tests using command: ```mvn clean install```
 * One test will pass and other will fail. That is how we have created these test cases, so that we can check the same behaviour in the github pipeline.
 * Commit the project in a GitHub Repo
+
+* Click on Actions and click on “set up this workflow” link.
+<img href="click-git-hub-actions.png"/>
+* Rename the file as “maven-build.yml” and paste below code in the text editor.
+
