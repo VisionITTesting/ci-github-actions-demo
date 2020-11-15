@@ -80,3 +80,17 @@ jobs:
 * Click on the 'build' link and expand the logs.
 
 <img style="float: right;" src="./ci-build-logs.png">
+
+---
+## CI - CD Introduction
+
+### Stages in CI - CD Pipeline
+
+<img style="float: right;" src="./ci-cd-stages.png">
+
+___
+
+<img style="float: right;" src="./ci-cd-stages-pipelineview.png">
+
+---
+<img style="float: right;" src="./ci-cd-and-cdeploy.png">
