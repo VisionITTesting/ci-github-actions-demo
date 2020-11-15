@@ -93,4 +93,4 @@ ___
 <img style="float: right;" src="./ci-cd-stages-pipelineview.png">
 
 ---
-<img style="float: right;" src="./ci-cd-and-cdeploy.png">
+<img style="float: right;" src="./ci-cd-and-cdeploy.png"> 
