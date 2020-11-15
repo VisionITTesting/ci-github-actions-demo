@@ -38,6 +38,7 @@ public class RunTest {
 * Commit the project in a GitHub Repo
 
 * Click on Actions and click on “set up this workflow” link.
-<img href="click-git-hub-actions.png"/>
+
+<img style="float: center;" src="./click-git-hub-actions.jpg">
 * Rename the file as “maven-build.yml” and paste below code in the text editor.
 
