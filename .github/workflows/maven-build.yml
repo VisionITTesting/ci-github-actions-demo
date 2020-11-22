@@ -20,5 +20,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Maven
-      run: mvn clean install
+    - name: Build with Maven-Run test on Chrome
+      run: mvn clean install -Dbrowser=chrome
+    - name: Build with Maven-Run Test on Firefox
+      run: mvn clean install -Dbrowser=firefox
